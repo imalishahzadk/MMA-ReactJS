@@ -1,0 +1,25 @@
+/* Dashboard.css */
+
+.fade-appear {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.fade-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e3e6f0;
+}
+
+.container-fluid {
+  background-color: #f8f9fc;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
